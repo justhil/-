@@ -4,9 +4,9 @@
 
 ## 先上单网口网速图
 
-## ![image-20240924220922903](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240924220922903.png)
+## ![image-20240924220922903](\image-20240924220922903.png)
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240924220714886.png" alt="image-20240924220714886" style="zoom:33%;" />
+<img src="\image-20240924220714886.png" alt="image-20240924220714886" style="zoom:33%;" />
 
 为什么没有叠加网速图呢？因为楼主路由器太垃圾无线桥接时无论如何wan口会掉线但是理论上是可以叠加的！希望有人成功可以返图。
 
@@ -24,7 +24,7 @@ mentohust luci ua2f luci-app-ua2f iptables-mod-filter iptables-mod-ipopt iptable
 
 进入openwrt后进入mentohust
 
-![image-20240925213906376](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925213906376.png)
+![image-20240925213906376](\image-20240925213906376.png)
 
 Username（账号）处填写学号@有线1x上网
 
@@ -38,31 +38,31 @@ Password填校园网密码（默认是学号）
 
 注意大部分openwrt默认的软件包中使用的都是wpad的精简版没有wpa2-eap协议所以在编译时需要更改为（wpad）
 
-![image-20240925214304164](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925214304164.png)
+![image-20240925214304164](\image-20240925214304164.png)
 
 你🐉的wifi有两种认证方式，没有1x后缀的为网页认证，有1x后缀的是可以预先认证的（wpa2-eap）
 
 点击radio1(5g)的scan(扫描)连接SCAUNET_1x
 
-![image-20240925215714630](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925215714630.png)
+![image-20240925215714630](\image-20240925215714630.png)
 
 分配network为wwan
 
-![image-20240925214849742](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925214849742.png)更改Encryption为wpa2-eap
+![image-20240925214849742](\image-20240925214849742.png)更改Encryption为wpa2-eap
 
-![image-20240925214954739](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925214954739.png)
+![image-20240925214954739](\image-20240925214954739.png)
 
 连接后放一边备用
 
 ### 负载均衡
 
-![image-20240925215410519](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925215410519.png)
+![image-20240925215410519](\image-20240925215410519.png)
 
-![image-20240925215424917](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925215424917.png)
+![image-20240925215424917](\image-20240925215424917.png)
 
-![image-20240925215431636](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925215431636.png)
+![image-20240925215431636](\image-20240925215431636.png)
 
-![image-20240925215437296](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240925215437296.png)
+![image-20240925215437296](\image-20240925215437296.png)
 
 看图
 
